@@ -7,7 +7,7 @@ file = open('chat.txt', 'r')
 lines = file.readlines()
 
 first_message = datetime(year=2021, month=1, day=1)
-last_message = datetime(year=2019, month=1, day=1)
+last_message = datetime(year=2000, month=1, day=1)
 
 for line in lines:
     if line.__len__() > 17 and line[2] == '/' and line.__contains__(': '):
